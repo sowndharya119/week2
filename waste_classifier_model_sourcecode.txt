@@ -14,12 +14,12 @@ from sklearn.metrics import classification_report, confusion_matrix
 import itertools
 
 #path_
-dataset_path = r"C:\Users\srina\Downloads\archive\garbage-dataset"
+dataset_path = r"C:\Users\JAWAHAR\Downloads\archive\edunet-dataset"
 
 #Load dataset
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image_dataset_from_directory
-dataset_path = r"C:\Users\srina\Downloads\archive\garbage-dataset"
+dataset_path = r"C:\Users\JAWAHAR\Downloads\archive\edunet-dataset"
 img_size = (224, 224)
 batch_size = 32
 train_ds = image_dataset_from_directory(
@@ -100,7 +100,7 @@ import numpy as np
 model = keras.models.load_model("waste_classifier_model.keras")
 print("Model loaded!")
 # Image path
-img_path = r"C:\Users\srina\Downloads\archive\garbage-dataset\plastic\plastic_93.jpg"
+img_path = r"C:\Users\JAWAHAR\Downloads\archive\edunet-dataset\plastic\plastic_93.jpg"
 # Load & preprocess image
 img = image.load_img(img_path, target_size=(224, 224))
 img_array = image.img_to_array(img)
