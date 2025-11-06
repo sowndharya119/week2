@@ -61,4 +61,4 @@ Example:
 Test Accuracy = 91.42%
 Input: plastic bottle → Output: Plastic 
 Author
-Srinagapriya AI & Data Science Virtual Internship – Week 2 Submission Edunet Foundation | IBM SkillsBuild
+Sowndharya AI & Data Science Virtual Internship – Week 2 Submission Edunet Foundation | IBM SkillsBuild
